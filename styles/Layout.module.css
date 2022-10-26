@@ -1,0 +1,37 @@
+.header {
+    line-height: 1.5;
+    max-height: 100vh;
+    position: center;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+.Link:hover {
+    background-color: hsla(177, 14%, 29%, 0.51);
+}
+
+
+.Link.router-link-exact-active {
+    color: var(--color-text);
+}
+
+.Link.router-link-exact-active:hover {
+    background-color: transparent;
+}
+
+.Link {
+    display: inline-block;
+    padding: 0 1rem;
+    border-left: 1px solid var(--color-border);
+}
+
+.Link:first-of-type {
+    border: 0;
+}

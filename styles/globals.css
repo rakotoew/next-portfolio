@@ -1,16 +1,43 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import './base.css';
+
+main {
+  max-width: 1920px;
+  margin: 10px auto;
+  padding: 2rem;
+  align-items: center;
+  font-weight: normal;
 }
 
-a {
-  color: inherit;
+a,
+.blue {
   text-decoration: none;
+  color: hsla(200, 85%, 57%, 0.79);
+  transition: 0.4s;
 }
 
-* {
-  box-sizing: border-box;
+@media (min-width: 1024px) {
+  body {
+    display: inline-flex;
+    place-items: center;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    padding: 0 2rem;
+  }
+  .part {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  body { display: flex;
+flex-direction: row;}
+  main {display: inline-flex;
+flex-direction: column;
+ place-items: center;}
 }

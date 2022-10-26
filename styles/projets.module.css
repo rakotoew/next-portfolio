@@ -1,0 +1,28 @@
+.card-holder {
+    display: flex;
+}
+
+.card {
+    background: var(--vt-c-black-soft);
+    padding: 0 1em;
+    display: inline-grid;
+    text-decoration: none;
+    margin: 1rem;
+    text-align: left;
+    border-radius: 10px;
+    width: 25%;
+    height: 100%;
+    min-height: 10em;
+}
+
+.card h2{
+    color: var(--vt-c-text-dark-1);
+}
+
+.card span{
+    color: cadetblue;
+}
+
+.card p{
+    color: var(--vt-c-text-dark-2)
+}
