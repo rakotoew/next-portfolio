@@ -11,7 +11,7 @@ export default function Layout({ children}) {
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <main>
-            <div class="header">
+            <div className="header">
                 <h1 class="blue">Bienvenue</h1>
                 <h3>Vous naviguez sur le portfolio d&apos;Ewan Rakotoanosy</h3>
                 <nav class={styles.nav}>

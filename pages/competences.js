@@ -124,8 +124,8 @@ export default function competences () {
                 </div>
                 <h1><br/>Mes compétences alternatives :</h1>
                 <div>
-                    <p>- Anglais niveau C1</p>
-                    <p>- Utilisation quotidienne de Linux</p>
+                    <p>- &#127468;&#127463; Anglais niveau C1</p>
+                    <p>- &#128039;Utilisation quotidienne de Linux</p>
                     <p></p>
                 </div>
             </div>
