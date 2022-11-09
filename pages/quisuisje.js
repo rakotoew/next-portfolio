@@ -17,7 +17,7 @@ export default function quisuisje () {
                 </h3>
                 <h3>
                     Je fait également du Vtt Enduro &#128693; en compétition au niveau régional et
-                    national ainsi que du ski l'hiver &#127938; et de l'escalade &#129495;
+                    national ainsi que du ski l&apos;hiver &#127938; et de l&apos;escalade &#129495;
                 </h3>
                 <h2><br/>Mon Parcours :</h2>
                 <h3>- License Informatique à l&apos;Université Savoie Mont BLanc</h3>
