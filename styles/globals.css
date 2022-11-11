@@ -32,6 +32,9 @@ a,
     align-items: center;
   }
 }
+h2{
+  color:var(--vt-c-indigo-light);
+}
 
 @media (max-width: 1024px) {
   body {

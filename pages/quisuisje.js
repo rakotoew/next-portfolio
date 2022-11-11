@@ -4,8 +4,8 @@ export default function quisuisje () {
     return (
         <Layout>
             <div>
-                <h1>Qui suis-je ?</h1>
-                <h2>Né le 31 octobre 2000 en Haute-Savoie</h2>
+                <h2>Qui suis-je ?</h2>
+                <h3>Né le 31 octobre 2000 en Haute-Savoie</h3>
                 <h3>
                     <br/>Je suis un étudiant en 1ère année de Master informatique à l&apos;Université
                     Savoie Mont Blanc.
