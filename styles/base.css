@@ -38,9 +38,7 @@
 
     --section-gap: 160px;
 
-    --color-card: var(--vt-c-indigo-dark);
-    --color-card-border: var(--vt-c-indigo);
-    --color-stars: var(--vt-c-indigo-light);
+    --color-stars: var(--vt-c-indigo-dark2);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -54,6 +52,10 @@
 
         --color-heading: var(--vt-c-text-dark-1);
         --color-text: var(--vt-c-text-dark-2);
+
+        --color-card: var(--vt-c-indigo-dark);
+        --color-card-border: var(--vt-c-indigo);
+        --color-stars: var(--vt-c-indigo-light);
     }
 }
 

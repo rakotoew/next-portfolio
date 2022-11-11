@@ -2,7 +2,7 @@ import styles from "../styles/components/Navbar.module.css";
 import Link from "next/link";
 import {useRouter} from "next/router";
 
-const navigationRoutes = [[""," Home "],["quisuisje", " Qui suis je "],["competences"," Compétences "],["projets"," Projets "]]
+const navigationRoutes = [[""," Home "],["quisuisje", " Qui suis-je "],["competences"," Compétences "],["projets"," Projets "]]
 
 export default function Navbar() {
     const router = useRouter();

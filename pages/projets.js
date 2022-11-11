@@ -29,10 +29,10 @@ export default function projets () {
                     </Link>
                     <Link href="https://www.rakotoew.fr">
                         <div class={styles.card}>
-                            <h2>Personnal webpage</h2>
+                            <h2>Personal webpage</h2>
                             <span className="blue">Javascript, Next</span>
                             <p>
-                                Mon portfolio présentant mes passions, mes compétences, et certains projet que j&apos;ai pu réalisé
+                                Mon portfolio présentant mes passions, mes compétences, et certains projets que j&apos;ai pu réaliser
                             </p>
                         </div>
                     </Link>

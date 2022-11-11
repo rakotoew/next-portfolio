@@ -11,18 +11,17 @@ export default function quisuisje () {
                     Savoie Mont Blanc.
                 </h3>
                 <h3>
-                    Passionné de jeux vidéos &#127918;, notamment les jeux de stratégie et les 4X, ainsi
-                    que par les RPG, MOB Arena et FPS, mais aussi de JDR, de mangas, de Romans
+                    Passionné de jeux vidéos &#127918; de stratégie, 4X, RPG, mais aussi de JDR, de mangas, de Romans
                     (SF et Heroic Fantasy)
                 </h3>
                 <h3>
-                    Je fait également du Vtt Enduro &#128693; en compétition au niveau régional et
+                    Je fais également du VTT Enduro &#128693; en compétition au niveau régional et
                     national ainsi que du ski l&apos;hiver &#127938; et de l&apos;escalade &#129495;
                 </h3>
                 <h2><br/>Mon Parcours :</h2>
-                <h3>- License Informatique à l&apos;Université Savoie Mont BLanc</h3>
-                <h3>- 1 année en Erasmus en Irlande &#127470;&#127466;, à Dundalk Institute of technology (BSc Hons in Computing in Software Development)</h3>
-                <h3>- Master Informatique à l&apos;Université Savoie Mont BLanc</h3>
+                <h3>- Licence Informatique à l&apos;Université Savoie Mont Blanc</h3>
+                <h3>- Une année en Erasmus en Irlande &#127470;&#127466;, à Dundalk Institute of technology (BSc Hons in Computing in Software Development)</h3>
+                <h3>- Master Informatique à l&apos;Université Savoie Mont Blanc</h3>
             </div>
         </Layout>
     )
