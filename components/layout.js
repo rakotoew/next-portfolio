@@ -9,7 +9,7 @@ export default function Layout({ children}) {
     return (<>
         <Head>
             <title>{siteTitle}</title>
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="/favicon.png" />
         </Head>
         <div id="smallstars" className={styles.stars}></div>
         <div id="mediumstars" className={styles.stars2}></div>
