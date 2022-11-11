@@ -1,7 +1,27 @@
 import Layout from "../components/layout";
 import styles from "../styles/pages/comp.module.css";
 import Image from 'next/image';
+
 export default function competences () {
+    const Languages = [["Python","Python logo", "/logo/logo-python.png"],
+        ["JavaScript","Javascript logo","/logo/logo-javascript.png"],
+        ["TypeScript","TypeScript logo","/logo/logo-typescript.png"],
+        ["Java","Java logo","/logo/logo-java.png"],
+        ["C","C logo","/logo/logo-c.png"],
+        ["C++","C++ logo","/logo/logo-c++.svg"],
+        ["Ocaml","OCaml logo","/logo/logo-ocaml.png"]]
+
+    const Frameworks =[["Node.js","node logo","/logo/logo-node.png"],
+        ["React","React logo","/logo/logo-react.svg"],
+        ["Vue.js","Vue logo","/logo/logo-vue.svg"],
+        ["Angular","Angular logo","/logo/logo-angular.png"],
+        ["Tailwind CSS","TailwindCSS logo","/logo/logo-tailwind.png"]
+    ]
+
+    const Bdds = [["MongoDB","MongoDB logo","/logo/logo-mongodb.png"],
+        ["SQL","SQL logo","/logo/logo-sql.png"],
+        ["Neo4J","Neo4J logo","/logo/logo-neo4j.png"]
+    ]
     return (
         <Layout>
             <div>
@@ -9,117 +29,42 @@ export default function competences () {
                 <div>
                     <h2>Languages</h2>
                     <div>
-                        <Image class={styles.logo}
-                            title="Python"
-                            alt="Python logo"
-                            src="/logo/logo-python.png"
-                            width="125"
-                            height="125"
-                        />
-                        <Image class={styles.logo}
-                            title="JavaScript"
-                            alt="Javascript logo"
-                            src="/logo/logo-javascript.png"
-                            width="125"
-                            height="125"
-                        />
-                        <Image class={styles.logo}
-                            title="TypeScript"
-                            alt="TypeScript logo"
-                            src="/logo/logo-typescript.png"
-                            width="125"
-                            height="125"
-                        />
-                        <Image class={styles.logo}
-                            title="Java"
-                            alt="Java logo"
-                            src="/logo/logo-java.png"
-                            width="125"
-                            height="125"
-                        />
-                        <Image class={styles.logo}
-                            title="C"
-                             alt="C logo"
-                             src="/logo/logo-c.png"
-                             width="125"
-                             height="125"
-                        />
-                        <Image class={styles.logo}
-                            title="C++"
-                             alt="C++ logo"
-                             src="/logo/logo-c++.svg"
-                             width="125"
-                             height="125"
-                        />
-                        <Image class={styles.logo}
-                            title="Ocaml"
-                            alt="OCaml logo"
-                            src="/logo/logo-ocaml.png"
-                            width="125"
-                            height="125"
-                        />
+                        {Languages.map((language) =>
+                            {return (
+                                <AfficheLogo
+                                    key={language}
+                                    title={language[0]}
+                                    alternative={language[1]}
+                                    source={language[2]}
+                                />
+                            );
+                        })}
                     </div>
                     <h2>Frameworks</h2>
                     <div>
-                        <Image class={styles.logo}
-                            title="Node.js"
-                            alt="node logo"
-                            src="/logo/logo-node.png"
-                            width="125"
-                            height="125"
-                        />
-                        <Image class={styles.logo}
-                            title="React"
-                            alt="React logo"
-                            src="/logo/logo-react.svg"
-                            width="125"
-                            height="125"
-                        />
-                        <Image class={styles.logo}
-                            title="Vue.js"
-                             alt="Vue logo"
-                             src="/logo/logo-vue.svg"
-                             width="125"
-                             height="125"
-                        />
-                        <Image class={styles.logo}
-                            title="Angular"
-                            alt="Angular logo"
-                            src="/logo/logo-angular.png"
-                            width="125"
-                            height="125"
-                        />
-                        <Image class={styles.logo}
-                               title="Tailwind CSS"
-                               alt="TailwindCSS logo"
-                               src="/logo/logo-tailwind.png"
-                               width="125"
-                               height="125"
-                        />
+                        {Frameworks.map((framework) =>
+                        {return (
+                            <AfficheLogo
+                                key={framework}
+                                title={framework[0]}
+                                alternative={framework[1]}
+                                source={framework[2]}
+                            />
+                        );
+                        })}
                     </div>
                     <h2>Base de Données</h2>
                     <div>
-                        <Image class={styles.logo}
-                            title="MongoDB"
-                            alt="MongoDB logo"
-                            src="/logo/logo-mongodb.png"
-                            width="125"
-                            height="125"
-                        />
-                        <Image class={styles.logo}
-                            title="SQL"
-                            alt="SQL logo"
-                            src="/logo/logo-sql.png"
-                            width="125"
-                            height="125"
-                        />
-                        <Image class={styles.logo}
-                            title="Neo4J"
-                            alt="Neo4J logo"
-                            src="/logo/logo-neo4j.png"
-                            width="125"
-                            height="125"
-                        />
+                        {Bdds.map((bdd) =>
+                        {return (
+                            <AfficheLogo
+                                key={bdd}
+                                title={bdd[0]}
+                                alternative={bdd[1]}
+                                source={bdd[2]}
+                            />
+                        );
+                        })}
                     </div>
                 </div>
                 <h1><br/>Mes compétences alternatives :</h1>
@@ -131,4 +76,15 @@ export default function competences () {
             </div>
         </Layout>
     )
+}
+
+function AfficheLogo({title, alternative, source}) {
+    return (
+        <Image class={styles.logo}
+        title={title}
+        alt={alternative}
+        src={source}
+        width="100"
+        height="100"/>
+    );
 }
