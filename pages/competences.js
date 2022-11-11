@@ -1,5 +1,5 @@
 import Layout from "../components/layout";
-import styles from "../styles/comp.module.css";
+import styles from "../styles/pages/comp.module.css";
 import Image from 'next/image';
 export default function competences () {
     return (

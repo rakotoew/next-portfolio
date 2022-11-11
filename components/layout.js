@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Navbar from "./navbar";
-import styles from "../styles/Layout.module.css"
+import styles from "../styles/components/Layout.module.css"
 import Link from "next/link";
 const name = 'Ewan Rakotoanosy';
 export const siteTitle = 'Ewan Rakotoanosy';
@@ -20,7 +20,7 @@ export default function Layout({ children}) {
                 <h3>Vous naviguez sur le portfolio d&apos;Ewan Rakotoanosy</h3>
                 <Navbar/>
             </div>
-            <div>
+            <div class={styles.child}>
                 {children}
             </div>
         </main>

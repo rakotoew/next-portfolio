@@ -1,7 +1,17 @@
-.header {
+@media (min-width: 1024px) {
+    .header {
+        margin-top: 8em;
+        margin-bottom: 15em;
+        position: relative;
+    }
+}
+
+.header{
     line-height: 1.5;
-    max-height: 100vh;
-    position: center;
+}
+.child{
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 .stars{
@@ -559,9 +569,9 @@
 
 @keyframes animStars {
     from {
-        transform: translateY(-2000px);
+        transform: translate(-1000px,-2000px);
     }
     to {
-        transform: translateY(0px);
+        transform: translate(0px, 0px);
     }
 }

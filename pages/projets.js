@@ -1,6 +1,6 @@
 import Layout from "../components/layout";
 import Link from "next/link";
-import styles from '../styles/projets.module.css'
+import styles from '../styles/pages/projets.module.css'
 
 export default function projets () {
     return(
