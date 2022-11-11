@@ -4,49 +4,6 @@
     position: center;
 }
 
-@media (max-width: 1024px) {
-    .Link:first-of-type {
-        border: 0;
-    }
-    .Link{
-        border-left: 1px solid var(--color-border);
-    }
-    .Link:hover{
-        border-left: 1px var(--color-border-hover);
-    }
-}
-
-@media (min-width: 1024px){
-    .nav {
-        position: center;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        font-size: 20px;
-        text-align: center;
-        margin-top: 2rem;
-    }
-}
-
-.Link:hover {
-    background-color: hsla(177, 14%, 29%, 0.51);
-}
-
-
-.Link.router-link-exact-active {
-    color: var(--color-text);
-}
-
-.Link.router-link-exact-active:hover {
-    background-color: transparent;
-}
-
-.Link {
-    display: inline-block;
-    margin: 2em auto 2em auto;
-    padding: 0 1rem;
-}
-
 .stars{
     width: 1px;
     height: 1px;

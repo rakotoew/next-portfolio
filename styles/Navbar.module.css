@@ -1,0 +1,46 @@
+@media (max-width: 1024px) {
+    .nav  {
+        margin-bottom: 1em;
+    }
+
+    .LinknonActive:first-of-type {
+        border: 0;
+    }
+    .LinknonActive{
+        display: inline-block;
+        border-left: 1px solid var(--color-border);
+        margin: 1em auto 0 auto;
+        padding: 0 1rem;
+    }
+    .LinknonActive:hover {
+        background-color: hsla(177, 14%, 29%, 0.51);
+    }
+}
+
+@media (min-width: 1024px){
+    .nav {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .LinknonActive {
+        display: inline-block;
+        margin: 1em auto 1em auto;
+        padding: 0 1rem;
+        border-radius: 10px;
+    }
+
+    .LinknonActive:hover {
+        background-color: hsla(177, 14%, 29%, 0.51);
+    }
+
+    .LinkActive {
+        display: inline-block;
+        margin: 2em auto 2em auto;
+        padding: 0 1rem;
+        color: var(--color-background-soft);
+    }
+}

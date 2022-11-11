@@ -19,10 +19,9 @@ a,
     display: inline-flex;
     place-items: center;
   }
-
   main {
     display: grid;
-    grid-template-columns: 0.5fr 1.5fr;
+    grid-template-columns: 0.5fr 1fr;
     padding: 0 2rem;
   }
   .part {

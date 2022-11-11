@@ -4,6 +4,7 @@ import Image from 'next/image';
 export default function Home() {
   return (
       <Layout>
+          <div>
             <div class={styles.desc}>
                 <Image
                     title="Ewan Rakotoanosy au Wicklow Moutains National Park"
@@ -19,6 +20,7 @@ export default function Home() {
                     <h3>Etudiant en Master Informatique à l&apos;Université Savoie Mont Blanc</h3>
                 </div>
             </div>
+          </div>
       </Layout>
   )
 }

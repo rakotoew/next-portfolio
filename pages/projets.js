@@ -11,7 +11,7 @@ export default function projets () {
                 <Link href="/projets/pec" >
                     <div class={styles.card}>
                         <h2>Private Encrypted Cloud</h2>
-                        <span>React & Nest</span>
+                        <span>TypeScript, React/Nest</span>
                         <p>
                             Project d&apos;un cloud avec un chiffrement bout-en-bout pour stocker et
                             partager des données de façon sécurisée
