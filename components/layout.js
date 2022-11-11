@@ -10,8 +10,12 @@ export default function Layout({ children}) {
             <title>{siteTitle}</title>
             <link rel="icon" href="/favicon.ico" />
         </Head>
+        <div id="stars" className={styles.stars}></div>
+        <div id="stars2" className={styles.stars2}></div>
+        <div id="stars3" className={styles.stars3}></div>
         <main>
-            <div className="header">
+            <div className={styles.header}>
+
                 <h1 class="blue">Bienvenue</h1>
                 <h3>Vous naviguez sur le portfolio d&apos;Ewan Rakotoanosy</h3>
                 <nav class={styles.nav}>

@@ -1,9 +1,8 @@
 @import './base.css';
 
 main {
-  max-width: 1920px;
-  margin: 10px auto;
-  padding: 2rem;
+  margin: 0 1em;
+  padding: 1rem;
   align-items: center;
   font-weight: normal;
 }
@@ -23,7 +22,7 @@ a,
 
   main {
     display: grid;
-    grid-template-columns: 0.5fr 1fr;
+    grid-template-columns: 0.5fr 1.5fr;
     padding: 0 2rem;
   }
   .part {
@@ -35,9 +34,13 @@ a,
 }
 
 @media (max-width: 1024px) {
-  body { display: flex;
-flex-direction: row;}
-  main {display: inline-flex;
-flex-direction: column;
- place-items: center;}
+  body {
+    display: flex;
+    flex-direction: row;
+  }
+  main {
+    display: inline-flex;
+    flex-direction: column;
+    place-items: center;
+  }
 }
