@@ -16,7 +16,7 @@ height = Math.round(height);
 export default function Footer(){
     return(<footer className={styles.foot}>
         <Imagefooter title={"footer"} alt={"footer bg"} source={"/footer-img-small.svg"}/>
-        <span className={styles.content}>Ce site web est sous <Link href="/license">Licence GNU GPL v3.0</Link></span>
+        <span className={styles.content}>Ce site web est sous <Link href="https://github.com/rakotoew/next-portfolio/blob/main/LICENSE.md">Licence GNU GPL v3.0</Link></span>
     </footer>);
 }
 
