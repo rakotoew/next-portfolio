@@ -1,5 +1,6 @@
 import styles from "../styles/components/Footer.module.css";
 import Image from 'next/image';
+import Link from "next/link";
 
 var width = 2500;
 if (typeof window !== 'undefined') {
@@ -15,7 +16,7 @@ height = Math.round(height);
 export default function Footer(){
     return(<footer className={styles.foot}>
         <Imagefooter title={"footer"} alt={"footer bg"} source={"/footer-img-small.svg"}/>
-        <span className={styles.content}>Ce site web est sous Licence GNU GPL 3.0</span>
+        <span className={styles.content}>Ce site web est sous <Link href="/license">Licence GNU GPL v3.0</Link></span>
     </footer>);
 }
 
