@@ -1,6 +1,12 @@
 import styles from '../styles/pages/Home.module.css'
 import Layout from "../components/layout";
 import Image from 'next/image';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import {faEnvelope} from "@fortawesome/free-regular-svg-icons";
+import Link from "next/link";
+
+
 export default function Home() {
   return (
       <Layout>
@@ -14,8 +20,16 @@ export default function Home() {
                         width="250"
                         height="250"
                     />
-                    <div className={styles.}>
-
+                    <div className={styles.link}>
+                        <Link href="https://github.com/rakotoew">
+                            <FontAwesomeIcon className={styles.icon} icon={faGithub} />&nbsp;&nbsp;
+                        </Link>
+                        <Link href="https://www.linkedin.com/in/ewan-rakotoanosy-844938249/">
+                            <FontAwesomeIcon className={styles.icon} icon={faLinkedin} />&nbsp;&nbsp;
+                        </Link>
+                        <Link href="/contact">
+                            <FontAwesomeIcon className={styles.icon} icon={faEnvelope} />&nbsp;&nbsp;
+                        </Link>
                     </div>
                 </div>
                 <div className={styles.part}>
