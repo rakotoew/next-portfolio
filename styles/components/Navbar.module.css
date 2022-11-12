@@ -19,6 +19,8 @@
         display: inline-block;
         border-left: 1px solid var(--color-border);
         margin: 1em auto 0 auto;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
     }
 }
 

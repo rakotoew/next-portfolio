@@ -26,7 +26,7 @@
 
     --blue-1: hsla(200, 85%, 57%, 0.79);
 
-    --footer-height:130px;
+    --footer-height:6rem;
 }
 
 /* semantic color variables for this project */
@@ -102,5 +102,6 @@ body {
 footer {
     position: fixed;
     bottom: 0;
+    height: var(--footer-height);
     width: 100%;
 }

@@ -10,8 +10,9 @@
     margin: 1rem;
     text-align: left;
     border-radius: 10px;
-    width: 33%;
+    width: 30%;
     height: 100%;
+    min-width: 20em;
     min-height: 10em;
     max-height: max-content;
     border: 2px solid var(--color-card);

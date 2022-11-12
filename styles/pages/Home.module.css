@@ -1,11 +1,35 @@
 .desc {
-    display: flex;
-    flex-direction: row;
+    display: inline-flex;
     align-items: center;
 }
 
+@media (max-width: 40em) {
+    .desc {
+        display: block;
+    }
+}
+
+.part{
+    transition: 1s;
+    display: inline-flex;
+    flex-direction: column;
+    width: 45%;
+    height: 33%;
+    min-width: 20em;
+}
+
 .profile {
-    border-radius: 40%;
-    display: block;
-    margin: 0 5em 0;
+    border-radius: 33%;
+    margin: 1em 1em 1em;
+}
+
+.link{
+    display: inline-flex;
+    align-items: center;
+}
+
+.icon{
+    margin: 1em 2em 1em;
+    width: 2em;
+    height: 2em;
 }
