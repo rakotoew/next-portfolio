@@ -1,12 +1,18 @@
 .desc {
-    display: block;
+    display: inline-flex;
     align-items: center;
 }
 
+@media (max-width: 40em) {
+    .desc {
+        display: block;
+    }
+}
+
 .part{
-    display: inline-grid;
-    margin: 1rem;
-    text-align: left;
+    transition: 1s;
+    display: inline-flex;
+    flex-direction: column;
     width: 45%;
     height: 33%;
     min-width: 20em;
@@ -14,7 +20,7 @@
 
 .profile {
     border-radius: 33%;
-    margin: 0 2em 0;
+    margin: 1em 1em 1em;
 }
 
 .link{
@@ -23,7 +29,7 @@
 }
 
 .icon{
-    margin: 1em 2em 0;
+    margin: 1em 2em 1em;
     width: 2em;
     height: 2em;
 }

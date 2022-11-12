@@ -32,7 +32,7 @@ export default function Home() {
                         </Link>
                     </div>
                 </div>
-                <div className={styles.part}>
+                <div>
                     <h1>Ewan Rakotoanosy</h1>
                     <h2>Développeur Full Stack</h2>
                     <h3>Etudiant en Master Informatique à l&apos;Université Savoie Mont Blanc</h3>
