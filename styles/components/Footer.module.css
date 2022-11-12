@@ -1,0 +1,9 @@
+
+.content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: var(--vt-c-indigo-dark2);
+    color: var(--vt-c-text-dark-2);
+    height: 30px;
+}
