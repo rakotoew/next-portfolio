@@ -10,6 +10,10 @@ export default function Layout({ children}) {
         <Head>
             <title>{siteTitle}</title>
             <link rel="icon" href="/favicon.png" />
+            <meta property="og:title" content="Ewan Rakotoanosy Portfolio"/>
+            <meta property="og:image" content="/favicon.png"/>
+            <meta property="og:description" content="Ceci est le portfolio d'ewan rakotoanosy, présentant ses passions, compétences et projets."/>
+            <meta property="og:url" content="https://www.rakotoew.fr"/>
         </Head>
                 <div id="smallstars" className={styles.stars}></div>
                 <div id="mediumstars" className={styles.stars2}></div>
