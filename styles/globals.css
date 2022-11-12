@@ -26,23 +26,17 @@ h2{
     grid-template-columns: 30em auto;
     padding: 0 2rem var(--footer-height);
   }
-  .part {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 }
 
 @media (max-width: 1024px) {
   body {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   main {
     display: inline-flex;
     flex-direction: column;
     place-items: center;
-    padding: 0 2rem var(--footer-height);
+    padding: 0 1rem var(--footer-height);
   }
 }

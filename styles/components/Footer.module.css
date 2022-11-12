@@ -1,9 +1,11 @@
-
-.content{
+.foot {
     display: flex;
     flex-direction: column;
+}
+
+.content{
     text-align: center;
     background: var(--vt-c-indigo-dark2);
     color: var(--vt-c-text-dark-2);
-    height: 30px;
+    height: auto;
 }

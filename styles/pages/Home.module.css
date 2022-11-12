@@ -1,11 +1,18 @@
 .desc {
-    display: flex;
-    flex-direction: row;
+    display: block;
     align-items: center;
 }
 
+.part{
+    display: inline-grid;
+    margin: 1rem;
+    text-align: left;
+    width: 45%;
+    height: 33%;
+    min-width: 20em;
+}
+
 .profile {
-    border-radius: 40%;
-    display: block;
-    margin: 0 5em 0;
+    border-radius: 33%;
+    margin: 0 2em 0;
 }
