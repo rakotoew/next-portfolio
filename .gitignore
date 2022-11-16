@@ -32,5 +32,12 @@ yarn-error.log*
 # vercel
 .vercel
 
-#idea
-.idea
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
