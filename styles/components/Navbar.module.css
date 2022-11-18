@@ -1,26 +1,26 @@
-.LinknonActive:hover {
-    background-color: var(--color-link-hover);
-}
-
 @media (max-width: 1024px) {
     .nav  {
         margin-bottom: 1em;
     }
-    .LinknonActive:first-of-type {
+    .Link:first-of-type {
         border: 0;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
     }
-    .LinknonActive:last-of-type {
+    .Link:last-of-type {
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
     }
-    .LinknonActive{
+    .Link{
         display: inline-block;
         border-left: 1px solid var(--color-border);
         margin: 1em auto 0 auto;
         padding-left: 0.5em;
         padding-right: 0.5em;
+    }
+    .Link:hover {
+        background-color: var(--color-link-hover);
+        transition: 0.4s;
     }
 }
 
@@ -32,15 +32,16 @@
         font-size: 20px;
         text-align: center;
     }
-    .LinknonActive {
+    .Link {
         display: inline-block;
         margin: 1em auto 1em auto;
         padding: 0 1rem;
         border-radius: 10px;
     }
-    .LinkActive {
+    .Link:hover {
         display: inline-block;
-        margin: 2em auto 2em auto;
-        color: var(--color-background-soft);
+        color: var(--color-heading);
+        transform: translate(2px, -2px);
+        transition: 0.4s;
     }
 }

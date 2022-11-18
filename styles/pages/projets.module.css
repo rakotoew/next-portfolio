@@ -19,7 +19,9 @@
 }
 
 .card:hover{
-    border:2px solid var(--color-card-border);
+    transform: translate(3px, -3px);
+    box-shadow: 0 3px 1em var(--color-card-border);
+    transition: 0.4s;
 }
 
 .card h2{
