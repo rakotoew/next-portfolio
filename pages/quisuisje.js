@@ -2,7 +2,7 @@ import Layout from "../components/layout";
 
 export default function quisuisje () {
     return (
-        <Layout>
+        <>
             <div>
                 <h2>Qui suis-je ?</h2>
                 <h3>Né le 31 octobre 2000 en Haute-Savoie</h3>
@@ -23,6 +23,6 @@ export default function quisuisje () {
                 <h3>- Une année en Erasmus en Irlande &#127470;&#127466;, à Dundalk Institute of technology (BSc Hons in Computing in Software Development)</h3>
                 <h3>- Master Informatique à l&apos;Université Savoie Mont Blanc</h3>
             </div>
-        </Layout>
+        </>
     )
 }

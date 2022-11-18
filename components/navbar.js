@@ -26,7 +26,7 @@ function NavigationLink({ href, text, router }) {
     let currentRoute = router.pathname;
     return (
         <Link
-              href={href} className={currentRoute === {href} ? styles.Linkactive : styles.LinknonActive}>
+              href={href} className={styles.Link}>
             {text}
         </Link>
     );

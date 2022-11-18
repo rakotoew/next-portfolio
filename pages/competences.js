@@ -23,7 +23,7 @@ export default function competences () {
         ["Neo4J","Neo4J logo","/logo/logo-neo4j.png"]
     ]
     return (
-        <Layout>
+        <div>
             <div>
                 <h1>Mes Compétences Techniques :</h1>
                 <div>
@@ -74,7 +74,7 @@ export default function competences () {
                     <p></p>
                 </div>
             </div>
-        </Layout>
+        </div>
     )
 }
 
