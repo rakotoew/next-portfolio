@@ -1,4 +1,3 @@
-import Layout from "../components/layout";
 import styles from "../styles/pages/comp.module.css";
 import Image from 'next/image';
 
@@ -23,7 +22,6 @@ export default function competences () {
         ["Neo4J","Neo4J logo","/logo/logo-neo4j.png"]
     ]
     return (
-        <div>
             <div>
                 <h1>Mes Compétences Techniques :</h1>
                 <div>
@@ -74,7 +72,6 @@ export default function competences () {
                     <p></p>
                 </div>
             </div>
-        </div>
     )
 }
 
