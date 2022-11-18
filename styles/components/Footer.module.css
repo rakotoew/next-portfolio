@@ -1,11 +1,15 @@
 .foot {
     display: flex;
     flex-direction: column;
+    min-height: 120px;
+    margin-left: -1em;
 }
 
 .content{
+    margin-right: -1em;
     text-align: center;
     background: var(--vt-c-indigo-dark2);
     color: var(--vt-c-text-dark-2);
     height: auto;
+    min-height: 20px;
 }
