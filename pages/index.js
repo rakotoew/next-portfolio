@@ -1,5 +1,4 @@
 import styles from '../styles/pages/Home.module.css'
-import Layout from "../components/layout";
 import Image from 'next/image';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
@@ -22,13 +21,13 @@ export default function Home() {
                     />
                     <div className={styles.link}>
                         <Link href="https://github.com/rakotoew">
-                            <FontAwesomeIcon className={styles.icon} icon={faGithub} />&nbsp;&nbsp;
+                            <FontAwesomeIcon className={styles.icon} icon={faGithub} />
                         </Link>
                         <Link href="https://www.linkedin.com/in/ewan-rakotoanosy-844938249/">
-                            <FontAwesomeIcon className={styles.icon} icon={faLinkedin} />&nbsp;&nbsp;
+                            <FontAwesomeIcon className={styles.icon} icon={faLinkedin} />
                         </Link>
                         <Link href="/contact">
-                            <FontAwesomeIcon className={styles.icon} icon={faEnvelope} />&nbsp;&nbsp;
+                            <FontAwesomeIcon className={styles.icon} icon={faEnvelope} />
                         </Link>
                     </div>
                 </div>

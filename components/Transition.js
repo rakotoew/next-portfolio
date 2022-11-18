@@ -44,7 +44,7 @@ const fadeBack = {
             opacity: 0,
             scale: 0.4,
             transition: {
-                duration: 0.6
+                duration: 0
             }
         }
 };
