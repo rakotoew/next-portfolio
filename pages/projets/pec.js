@@ -2,7 +2,7 @@ import Layout from "../../components/layout";
 
 export default function pec() {
     return (
-        <Layout>
+        <>
             <div>
                 <h1>Private Encrypted Cloud</h1>
                 <h2>Projet Universitaire</h2>
@@ -15,6 +15,6 @@ export default function pec() {
                 <h3>- Nest</h3>
                 <h3>- TypeOrm</h3>
             </div>
-        </Layout>
+        </>
     )
 }

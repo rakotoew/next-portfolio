@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-      <Layout>
+      <>
             <div className={styles.desc}>
                 <div className={styles.part}>
                     <Image
@@ -38,6 +38,6 @@ export default function Home() {
                     <h3>Etudiant en Master Informatique à l&apos;Université Savoie Mont Blanc</h3>
                 </div>
             </div>
-      </Layout>
+      </>
   )
 }

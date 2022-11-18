@@ -40,7 +40,7 @@ b{
   main {
     display: inline-flex;
     flex-direction: column;
-    place-items: center;
+    place-items: baseline;
     padding: 0 1rem var(--footer-height);
   }
 }

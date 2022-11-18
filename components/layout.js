@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Navbar from "./navbar";
 import styles from "../styles/components/Layout.module.css"
 import Footer from "./footer";
+import Transition from "./Transition";
 const name = 'Ewan Rakotoanosy';
 export const siteTitle = 'Ewan Rakotoanosy';
 
@@ -25,7 +26,9 @@ export default function Layout({ children}) {
                         <Navbar/>
                     </div>
                     <div className={styles.child}>
-                        {children}
+                        <Transition>
+                            {children}
+                        </Transition>
                     </div>
                 </main>
         <Footer/>
