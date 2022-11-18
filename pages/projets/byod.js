@@ -2,7 +2,7 @@ import Layout from "../../components/layout";
 
 export default function byod() {
     return (
-        <Layout>
+        <>
             <div>
                 <h1>BYOD</h1>
                 <h2>Projet Universitaire</h2>
@@ -13,6 +13,6 @@ export default function byod() {
                 <h2>Technologies utilisées :</h2>
                 <h3>- Unity</h3>
             </div>
-        </Layout>
+        </>
     )
 }

@@ -4,12 +4,12 @@ import styles from '../styles/pages/projets.module.css'
 
 export default function projets () {
     return(
-        <Layout>
+        <>
             <div>
                 <h1>Mes projets notables :</h1>
                 <div class={styles.cardHolder}>
                     <Link href="/projets/pec" >
-                        <div class={styles.card}>
+                        <div className={styles.card}>
                             <h2>Private Encrypted Cloud</h2>
                             <span>TypeScript, React/Nest</span>
                             <p>
@@ -28,7 +28,7 @@ export default function projets () {
                         </div>
                     </Link>
                     <Link href="https://www.rakotoew.fr">
-                        <div class={styles.card}>
+                        <div className={styles.card}>
                             <h2>Personal webpage</h2>
                             <span className="blue">Javascript, Next</span>
                             <p>
@@ -38,6 +38,6 @@ export default function projets () {
                     </Link>
                 </div>
             </div>
-        </Layout>
+        </>
     )
 }
