@@ -9,7 +9,7 @@
 
     --vt-c-indigo: #2c3e50;
     --vt-c-indigo-medium: #283748;
-    --vt-c-indigo-dark:#1b2735;
+    --vt-c-indigo-dark: rgba(27, 39, 53, 0.6);
     --vt-c-indigo-dark2: #1e2228;
     --vt-c-indigo-light: #49638a;
     --vt-c-indigo-light2: #6b8fc7;
@@ -27,9 +27,11 @@
     --blue-1: hsla(200, 85%, 57%, 0.79);
 
     --footer-height:6rem;
+    --section-gap: 160px;
 }
 
-/* semantic color variables for this project */
+/* semantic color variables for this project for color scheme clear*/
+/*
 :root {
     --color-blue:var(--vt-c-indigo-dark2);
     --color-link-hover: var(--vt-c-divider-light-1);
@@ -45,34 +47,35 @@
     --color-heading: var(--vt-c-indigo-dark);
     --color-text: var(--vt-c-text-light-1);
 
-    --section-gap: 160px;
-
     --color-stars: var(--vt-c-indigo-dark2);
     --color-card: var(--vt-c-divider-light-2);
     --color-card-border: var(--vt-c-divider-dark-1);
 }
-
+*/
+/*
 @media (prefers-color-scheme: dark) {
-    :root {
-        --color-blue: var(--blue-1);
-        --color-link-hover: hsla(194, 14%, 30%, 0.51);
-        --color-background-anim: radial-gradient(circle 70rem at top left, var(--vt-c-indigo-medium) 0%, var(--color-background) 200%);
+*/
 
-        --color-background: var(--vt-c-black);
-        --color-background-soft: var(--vt-c-black-soft);
-        --color-background-mute: var(--vt-c-black-mute);
+:root {
+    --color-blue: var(--blue-1);
+    --color-link-hover: hsla(194, 14%, 30%, 0.51);
+    --color-background-anim: radial-gradient(circle 70rem at top left, var(--vt-c-indigo-medium) 0%, var(--color-background) 200%);
 
-        --color-border: var(--vt-c-divider-dark-2);
-        --color-border-hover: var(--vt-c-divider-dark-1);
+    --color-background: var(--vt-c-black);
+    --color-background-soft: var(--vt-c-black-soft);
+    --color-background-mute: var(--vt-c-black-mute);
 
-        --color-heading: var(--vt-c-indigo-light2);
-        --color-text: var(--vt-c-text-dark-2);
+    --color-border: var(--vt-c-divider-dark-2);
+    --color-border-hover: var(--vt-c-divider-dark-1);
 
-        --color-card: var(--vt-c-indigo-dark);
-        --color-card-border: var(--vt-c-indigo);
-        --color-stars: var(--vt-c-indigo-light);
-    }
+    --color-heading: var(--vt-c-indigo-light2);
+    --color-text: var(--vt-c-text-dark-2);
+
+    --color-stars: var(--vt-c-indigo-light);
+    --color-card: var(--vt-c-indigo-dark);
+    --color-card-border: var(--vt-c-indigo);
 }
+/*}*/
 
 *,
 *::before,

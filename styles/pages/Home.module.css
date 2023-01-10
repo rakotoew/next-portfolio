@@ -38,3 +38,67 @@
     transform: translate(2px, -2px);
     transition: 0.4s;
 }
+
+/* Animation */
+.animTypewriter{
+    width: 100%;
+}
+.animTypewriter h1{
+    width: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: type 2s steps(40,end) forwards;
+}
+.animTypewriter h2{
+    width: 50%;
+    overflow: hidden;
+    white-space: nowrap;
+    opacity: 0;
+    animation: type2 steps(40,end) 2s forwards;
+    animation-delay: 2s;
+}
+.animTypewriter h3{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    opacity: 0;
+    animation: type2 2s steps(40,end) forwards, blink .5s 10 step-end alternate;;
+    animation-delay: 4s;
+}
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+    1%, 99%{
+        border-right: 2px solid var(--color-blue);
+    }
+    100%{
+        border-right: none;
+    }
+}
+
+@keyframes type2 {
+    0% {
+        width: 0;
+    }
+    1% {
+        opacity: 1;
+    }
+    1%, 99% {
+        border-right: 2px solid var(--color-blue);
+    }
+    100% {
+        opacity: 1;
+        border: none;
+    }
+}
+
+@keyframes blink {
+    0%{
+        border-right: 2px solid var(--color-blue);
+    }
+    50% {
+        border-color: transparent;
+    }
+}
